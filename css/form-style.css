@@ -1,0 +1,33 @@
+form#custom_login_form, form#custom_registration_form, form#adduser, form#wp_pass_reset {
+    border: 1px solid #ccc;
+    width: 500px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+form#custom_login_form input, form#custom_registration_form input, form#adduser input, form#wp_pass_reset input {
+    width: 100%;
+}
+@media (max-width: 767px) {
+    
+    form#custom_login_form, form#custom_registration_form, form#adduser, form#wp_pass_reset {
+    width: 100%;
+}
+}
+input#custom_login_submit, input#custom_registration_submit, input#submitbtn{
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.textcenter{
+    text-align: center;
+}
+.custom_errors {
+    background: red;
+    padding: 10px;
+} 
+
